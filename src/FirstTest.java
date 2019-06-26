@@ -17,7 +17,7 @@ public class FirstTest {
     public void setUp() throws Exception
     {
         DesiredCapabilities capabilities = new DesiredCapabilities();
-int asa = 1;
+
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("deviceName","AndroidTestDevice");
         capabilities.setCapability("platformVersion","6.0");
@@ -34,7 +34,7 @@ int asa = 1;
     {
         driver.quit();
     }
- //первый тест
+ 
     @Test
     public void firstTest()
     {
